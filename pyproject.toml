@@ -1,0 +1,10 @@
+[project]
+name = "shaken-but-not-stirred"
+version = "0.1.0"
+description = "A 007-inspired spy game API, based on the 1982 ZX Spectrum classic"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "pydantic>=2.0.0",
+]
